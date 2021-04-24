@@ -1,0 +1,21 @@
+<!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
+<wxs src="./index.wxs" module="utils" />
+
+
+<navbar device_name="状态" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+
+<view class="common-panel-header" style="width: 750rpx; height: 678rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+  <image style="width: 540rpx; height: 530rpx; display: block; box-sizing: border-box; top: 96rpx; position: relative; left: 108rpx"  class="common-panel-header-state" src="../../../image/PowerView.png" />
+  <view  class="common-panel-header-content" style="position: absolute; left: 342rpx; top: 672rpx">没电</view>
+</view>
+
+
+
+<view class="control" style="width: 750rpx; height: 298rpx; display: block; box-sizing: border-box; left: 0rpx; top: 870rpx; position: absolute">
+  <image style="width: 192rpx; height: 176rpx; display: inline-block; box-sizing: border-box; left: 78rpx; top: 34rpx; position: relative"  class="control-switch" src="../../../image/Switch.png" />
+  <text class="control-switch-content" style="position: relative; left: -62rpx; top: 74rpx">开/关</text>
+  <image style="width: 164rpx; height: 176rpx; display: inline-block; box-sizing: border-box; left: 32rpx; top: 34rpx; position: relative"  class="control-timer" src="../../../image/Timer.jpg" />
+  <text class="control-timer-content" style="position: relative; left: -86rpx; top: 74rpx">定时</text>
+  <image style="width: 164rpx; height: 176rpx; display: inline-block; box-sizing: border-box; left: 2rpx; top: 36rpx; position: relative"  class="control-Electricity" src="../../../image/Electricity.png" />
+  <text class="control-Electricity-content" style="position: relative; left: -114rpx; top: 72rpx">电量</text>
+</view>
